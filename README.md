@@ -1,31 +1,31 @@
 # ada.08
-Santander Coders - Unit 08: Automated Testing (Bookstore)
+## Santander Coders - Unit 08: Automated Testing (Bookstore)
 
-Enunciado
-Implementar uma API básica com as camadas de Repository, Service e Controller de um cadastro livros.
+## Statement
+Implement a basic API with the Repository, Service and Controller layers of a Bookstore.
 
-Requisitos
-É necessário cadastrar um novo livro no sistema. Todo livro deve ter os seguintes atributos abaixo:
-Um título
-Um resumo do que vai ser encontrado no livro
-Um sumário de tamanho livre.
-Preço do livro
-Número de páginas
-Isbn(identificador do livro)
-Data que ele deve entrar no ar(de publicação)
+## Requirements
+It is necessary to register a new book in the system. Every book must have the following attributes below:
+- A title.
+- An abstract of what will be found in the book.
+- A free-size Summary.
+- Price of the book.
+- Number of pages.
+- ISBN (book identifier).
+- Date it should go released (of publication).
 
-Restrições
-Título é obrigatório
-Resumo é obrigatório e tem no máximo 500 caracteres
-Sumário é de tamanho livre.
-Preço é obrigatório e o mínimo é de 20
-Número de páginas é obrigatória e o mínimo é de 100
-Isbn é obrigatório, formato livre
-Data que vai entrar no ar precisa ser no futuro
+## Restrictions
+- Title is required.
+- Abstract is mandatory and has a maximum of 500 characters.
+- Summarry is free-sized.
+- Price is mandatory and the minimum is 20.
+- Number of pages is mandatory and the minimum is 100.
+- ISBN is mandatory, free format.
+- Date that will go released needs to be in the future.
 
-Resultado esperado
-Um novo livro precisa ser criado e status 200 retornado
+## Expected outcome
+A new book needs to be created and status 200 returned.
 
-Requsitos obrigatórios
-A aplicação precisa ter cobertura mínima de 80% do código da API.
-Realizar pelo menos 2 testes de integração.
+## Mandatory requirements
+- The application must have a minimum coverage of 80% of the API code.
+- Perform at least 2 integration tests.
